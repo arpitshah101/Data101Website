@@ -1,0 +1,75 @@
+body {
+  background-color: #F7F4F3;
+  font-size: 20px;
+}
+
+.top-header {
+  /*height: 100px;*/
+  background-color: #C52233;
+  color: white;
+  padding: 10px;
+}
+
+.top-header > * {
+  display: inline-block;
+}
+
+.top-header small {
+  color: white;
+}
+
+/*header nav {
+  background-color: #363732;
+  color: white;
+}*/
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  padding: 10px 15px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+nav ul li a, nav ul li a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul li:hover {
+  background-color: #F7F4F3;
+  color: #181B21;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.thin-hr {
+  margin: 15px auto 50px auto;
+  width: 200px;
+  clear: both;
+  display: block;
+  position: relative;
+  border: none;
+  background-color: #333333;
+  height: 3px;
+}
+
+.section-header {
+  margin-top: 50px;
+}
+
+.hall-fame-list {
+  list-style: none;
+  text-align: center;
+}
+
+.hall-fame-list li {
+  display: inline-block;
+}
+
+.hall-fame-list li {
+  margin-right: 100px;
+}
